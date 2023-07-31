@@ -14,7 +14,7 @@ pipeline {
             }
          stage('Build') {
             steps {
-                dir("/Users/testinium/.jenkins/workspace/UcuzabiletProject") {
+                dir("/Users/testinium/.jenkins/workspace/UcuzabiletExample") {
                 sh 'mvn clean install -DskipTests=true'
                 }
 
@@ -23,7 +23,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                dir("/Users/testinium/.jenkins/workspace/UcuzabiletProject") {
+                dir("/Users/testinium/.jenkins/workspace/UcuzabiletExample") {
                 sh 'mvn test'
                 }
             }
