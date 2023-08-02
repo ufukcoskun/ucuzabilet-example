@@ -44,7 +44,7 @@ public class MainPage extends Base{
     }
 
     public void selectAdnanMenderes(){
-        waitVisibility(AdnanMenderesSelector);
+        //waitVisibility(AdnanMenderesSelector);
         driver.findElement(AdnanMenderesSelector).click();
     }
 
