@@ -12,7 +12,7 @@ public class MainPage extends Base{
     String fromIstanbul = "istanbul";
 
     //Elements
-    By SearchForm = By.id("searchForm");
+    By SearchForm = By.id("searchFormblablabla");
     By FromTxtArea = By.id("from_text");
     By ToTxtArea = By.id("to_text");
     By SabihaSelector = By.cssSelector("li[data-value='"+sabihaText+"']");
